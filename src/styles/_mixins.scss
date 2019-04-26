@@ -1,0 +1,8 @@
+
+// Green fade.
+@mixin green-fade {
+  font-weight: 700;
+	background: linear-gradient( 45deg, $green-neon, $green );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
