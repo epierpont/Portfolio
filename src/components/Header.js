@@ -21,8 +21,8 @@ class Header extends Component {
         <div className="header-message">
           <div className="container">
             <div className="row">
-              <div class="col-8">
-                <h1 class="text-right">Chuppta? I'm a <strong>LAMP Developer</strong><br/>AND <strong>WordPress Monkey</strong></h1>
+              <div class="col-md-8">
+                <h1>Chuppta? I'm a <strong>LAMP Developer</strong><br/>AND <strong>WordPress Monkey</strong></h1>
               </div>{/* END .col */}
               <div class="col">
                 <figure></figure>
