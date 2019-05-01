@@ -10,7 +10,7 @@ function App() {
   return (
     <main>
       <Header />
-      <Divider />
+      <Divider fillColor='#fff' />
       <Recent />
       <About />
       <Footer />

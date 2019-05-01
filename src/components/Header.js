@@ -21,10 +21,10 @@ class Header extends Component {
         <div className="header-message">
           <div className="container">
             <div className="row">
-              <div class="col-md-8">
+              <div className="col-md-8">
                 <h1>Chuppta? I'm a <strong>LAMP Developer</strong><br/>AND <strong>WordPress Monkey</strong></h1>
               </div>{/* END .col */}
-              <div class="col">
+              <div className="col">
                 <figure></figure>
               </div>{/* END .col */}
             </div>{/* END .row */}
