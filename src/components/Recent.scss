@@ -1,3 +1,48 @@
+
+// Recent work styles.
 .recent-work {
-  background-color: orange;
+  padding: 2rem 0 4rem;
+
+  h2 {
+  	margin-bottom: 1.3rem;
+  	padding: 1rem;
+
+    span {
+      @include green-fade;
+    }
+
+  }
+
+  .card {
+  	border: 0;
+  	font-size: .875rem;
+  	line-height: 1.5rem;
+  	background-color: $black;
+  	overflow: hidden;
+  	//border-radius: 0;
+  }
+
+  .card-body {
+  	background-color: $white;
+  }
+
+  .card-body img {
+  	max-width: 13rem;
+  	margin-bottom: .8rem;
+  }
+
+  img.card-img-top {
+  	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  	transition: all .2s;
+  	opacity: .5;
+  	border-radius: 0;
+  }
+
+  img.card-img-top:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+
 }
