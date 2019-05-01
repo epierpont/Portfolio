@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Divider fillColor='#fff' />
       <Recent />
+      <Divider fillColor='#f7f7f7' />
       <About />
       <Footer />
     </main>
