@@ -1,3 +1,12 @@
+
+// Footer styles.
 footer {
-  background-color: lightgreen;
+	background-color: $black;
+	padding: .5rem 0 1rem;
+	font-size: 1.8em;
+
+  span {
+    @include green-fade;
+  }
+  
 }
