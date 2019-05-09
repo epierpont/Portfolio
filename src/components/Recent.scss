@@ -1,10 +1,10 @@
 
 // Recent work styles.
 .recent-work {
-  padding: 2rem 0 4rem;
+  padding: 2rem 0 6rem;
 
   h2 {
-  	margin-bottom: 1.3rem;
+  	margin-bottom: 2rem;
   	padding: 1rem;
 
     span {
@@ -17,32 +17,55 @@
   	border: 0;
   	font-size: .875rem;
   	line-height: 1.5rem;
-  	background-color: $black;
   	overflow: hidden;
-  	//border-radius: 0;
+
+    .card-body {
+    	background-color: $white;
+      padding: 0;
+    }
+
+    .card-img-top {
+      margin-bottom: 1.2rem;
+    }
+
+    .btn {
+      width: 25%;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    	color: #3a3a3a;
+    	font-size: .875rem;
+    	line-height: 1.5rem;
+    }
+
   }
 
-  .card-body {
-  	background-color: $white;
+  .steamboat {
+    padding-right: 4rem;
+
+    .card-img-top {
+      width: 70%;
+    }
+
   }
 
-  .card-body img {
-  	max-width: 13rem;
-  	margin-bottom: .8rem;
+  .park-city {
+    padding: 0 2rem;
+
+    .card-img-top {
+      width: 60%;
+    }
+
   }
 
-  img.card-img-top {
-  	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-  	transition: all .2s;
-  	opacity: .5;
-  	border-radius: 0;
-  }
+  .health-beginnings {
+    padding-left: 4rem;
 
-  img.card-img-top:hover {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-    opacity: 1;
+    .card-img-top {
+      width: 80%;
+    }
+
   }
 
 }

@@ -21,4 +21,20 @@ html {
   	font-size: 1.6rem;
   }
 
+  .btn {
+    background-color: $white;
+    border: 1px solid $orange;
+    color: $orange;
+    font-weight: 700;
+    text-transform: lowercase;
+    font-size: .8rem;
+    padding: .3rem 1rem .3rem;
+  }
+
+  .btn:hover {
+    background-color: $green-neon;
+    border: 1px solid $green-neon;
+    color: $white;
+  }
+
 }
