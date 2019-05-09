@@ -14,6 +14,7 @@ function App() {
       <Recent />
       <Divider fillColor='#f7f7f7' />
       <About />
+      <Divider fillColor='#000' />
       <Footer />
     </main>
   )

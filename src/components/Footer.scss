@@ -3,10 +3,17 @@
 footer {
 	background-color: $black;
 	padding: .5rem 0 1rem;
-	font-size: 1.8em;
+	font-size: .875rem;
 
   span {
     @include green-fade;
+		font-size: 1.8rem;
+		margin-right: 1rem;
   }
-  
+
+	a {
+		line-height: 2.9rem;
+		text-decoration: none;
+	}
+
 }
