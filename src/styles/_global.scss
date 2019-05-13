@@ -21,6 +21,10 @@ html {
   	font-size: 1.6rem;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   .btn {
     background-color: $white;
     border: 1px solid $orange;

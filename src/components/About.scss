@@ -15,7 +15,7 @@
   }
 
   p {
-  	color: #3a3a3a;
+  	color: $body-black;
   	font-size: .875rem;
   	line-height: 1.5rem;
   }
@@ -32,7 +32,7 @@
   }
 
   ul {
-  	color: #3a3a3a;
+  	color: $body-black;
   	list-style-type: none;
   	padding-left: 0;
   	font-size: .875rem;
@@ -59,7 +59,7 @@
 
   .experience {
   	font-size: .8rem;
-  	color: #3a3a3a;
+  	color: $body-black;
   	margin-top: .4rem;
 
     .row {

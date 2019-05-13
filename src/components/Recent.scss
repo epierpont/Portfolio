@@ -34,7 +34,7 @@
 
     p {
       margin-bottom: 1rem;
-    	color: #3a3a3a;
+    	color: $body-black;
     	font-size: .875rem;
     	line-height: 1.5rem;
     }
@@ -68,6 +68,29 @@
 
     img {
       width: 80%;
+    }
+
+  }
+
+  .modal-body {
+    padding: 2rem 1rem;
+
+    p {
+      margin-bottom: 1rem;
+    	color: $body-black;
+    	font-size: .875rem;
+    	line-height: 1.5rem;
+    }
+
+    h6 {
+      font-weight: 700;
+      margin-bottom: .8rem;
+    }
+
+    ul {
+      color: $body-black;
+    	font-size: .8rem;
+    	line-height: 1.5rem;
     }
 
   }

@@ -24,7 +24,22 @@ class Recent extends Component {
                   </button>
                 </div>
                 <div className="modal-body">
-                  ...
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-5"><img src="/src/images/phone-steamboat.png" alt="Project" /></div>
+                    <div className="col-md-7">
+                      <h6>Bookin' it clammin' over t'</h6>
+                      <p>Ankle biteah Outta Staydahs up t' wintah 'Roostik tube steak. Cah mummah from away Hold'er Newt she's, heddin for da ruhbarb! Mount Dessuht Hammah Gohd Dammah, feeder' the beans tunk puff junkah wintah. Windah bendah yahd kid muckle riyht on'ta her, from away wreckah Hammah Gohd Dammah, feeder' the beans.</p>
+                      <p>Katahdin dooryahd owt, hum-dingah suppah mummah door-yahd heatah huck. Bogan no-see-um wintah yut, yow uns batrees slower than molasses going uphill in January hum-dingah tube steak smokie ankle biteah naw mummah, up t' hahd tellin' not knowin' noseeum chimbly nummah than a faht up t' camp podunk Sundee robin showah.</p>
+                      <p>indah bendah If you can't stand the wintah you don't deserve the summah bogan anuthah Powrtland Museum of Aht yahd grindah wintah. <a href="#">Hammah Gohd Dammah</a>, feeder' the beans cubboard Bah </p>
+                      <ul>
+                        <li>Cah mummah from away</li>
+                        <li>Katahdin rig up If you can't stand the wintah</li>
+                        <li>Sundee robin showah</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
                 </div>
                 <div className="modal-footer">
                   <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
