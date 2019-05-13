@@ -95,4 +95,15 @@
 
   }
 
+  .modal .btn a {
+    color: $orange;
+    display: block;
+    transition: all .3s;
+  }
+
+  .modal .btn:hover a {
+    color: $white;
+    text-decoration: none;
+  }
+
 }
