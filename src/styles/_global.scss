@@ -35,10 +35,20 @@ html {
     padding: .3rem 1rem .3rem;
   }
 
-  .btn:hover {
+  .btn:hover,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
     background-color: $green-neon;
     border: 1px solid $green-neon;
     color: $white;
+  }
+
+  .btn-primary:focus, .btn-primary.focus,
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
   }
 
 }

@@ -23,7 +23,7 @@ class Recent extends Component {
                   <p className="card-text"><strong>Development</strong></p>
                   <p className="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
                 </div>
-                <button className="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#steamboat-modal">view</button>
+                <button className="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#steamboat-modal">info</button>
               </div>
             </div>
 
@@ -69,7 +69,7 @@ class Recent extends Component {
                   <p className="card-text"><strong>Development</strong></p>
                   <p className="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
                 </div>
-                <button className="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#park-record-modal">view</button>
+                <button className="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#park-record-modal">info</button>
               </div>
             </div>
 
@@ -115,7 +115,7 @@ class Recent extends Component {
                   <p className="card-text"><strong>Development</strong></p>
                   <p className="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
                 </div>
-                <button className="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#cavvy-savvy-modal">view</button>
+                <button className="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#cavvy-savvy-modal">info</button>
               </div>
             </div>
 

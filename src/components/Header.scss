@@ -40,12 +40,12 @@ header {
     figure {
       width: 125px;
     	height: 125px;
-    	background-color: blue;
+    	background-color: $black;
     	background-image: url('../images/face-eric-pierpont.jpg');
     	border-radius: .2rem;
     	background-size: cover;
     	background-position-x: -9px;
-    	box-shadow: 5px 5px 10px #050505;
+    	box-shadow: 5px 5px 10px $box-shadow;
       margin: 0 auto;
     }
 
