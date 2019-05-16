@@ -121,7 +121,7 @@ class About extends Component {
 
               <div className="row no-gutters">
                 <div className="col-4 col-md-3 date"></div>
-                <div className="col-8 col-md-9"><a class="btn btn-primary" href="#" role="button">Resume</a></div>
+                <div className="col-8 col-md-9"><a className="btn btn-primary" href="#" role="button">Resume</a></div>
               </div>{/* END .row */}
 
             </div>{/* END .col */}
