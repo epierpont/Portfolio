@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import SkillSet from './SkillSet'
+import Experience from './Experience'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -27,44 +29,13 @@ class About extends Component {
               <hr />
 
               <div className="row skill-set">
-
-                <div className="col forte">
-                  <h4><span>my forte</span></h4>
-                  <ul>
-                    <li>PHP/MySQL</li>
-                    <li>WordPress</li>
-                    <li>HTML/CSS</li>
-                    <li>Bootstrap</li>
-                    <li>Sass</li>
-                    <li>Git</li>
-                    <li>Agile/Scrum</li>
-                  </ul>
-                </div>
-
-                <div className="col secondary">
-                  <h4><span>secondary</span></h4>
-                  <ul>
-                    <li>OOP</li>
-                    <li>JavaScript/jQuery</li>
-                    <li>React</li>
-                    <li>NPM</li>
-                    <li>NodeJS</li>
-                    <li>CLI</li>
-                  </ul>
-                </div>
-
-                <div className="col goals">
-                  <h4><span>other</span></h4>
-                  <ul>
-                    <li>RE Investments</li>
-                    <li>Long Term Rentals</li>
-                    <li>Property Management</li>
-                  </ul>
-                </div>
-
+                <SkillSet slug="forte" list={['PHP/MySQL', 'WordPress', 'HTML/CSS', 'Bootstrap', 'Sass', 'Git', 'Agile/Scrum']}/>
+                <SkillSet slug="secondary" list={['OOP', 'JavaScript/jQuery', 'React', 'NPM', 'NodeJS', 'CLI']}/>
+                <SkillSet slug="other" list={['RE Investments', 'Long Term Rentals', 'Property Management']}/>
               </div>
 
               <hr />
+
               <p className="text-center">
                 <a href="#" className="email">info@ericpierpont.com</a>
                 <a href="#" className="social"><FontAwesomeIcon icon={faFacebookF} /></a>
@@ -85,37 +56,14 @@ class About extends Component {
                 <div className="col-12 col-md-9"><h2 className="text-center text-md-left">&#47;&#47; my <span>experience</span></h2></div>
               </div>{/* END .row */}
 
-              <div className="row no-gutters">
-                <div className="col-4 col-md-3 date">09.14 - Today</div>
-                <div className="col-8 col-md-9"><strong>Swift Communications</strong> | <span>Remote</span><br />
-                  WordPress Developer</div>
-              </div>{/* END .row */}
-
-              <div className="row no-gutters">
-                <div className="col-4 col-md-3 date">06.10 - 09.14</div>
-                <div className="col-8 col-md-9"><strong>Independent Contractor</strong> | <span>Remote</span><br/>
-                  Web Developer</div>
-              </div>{/* END .row */}
-
-              <div className="row no-gutters">
-                <div className="col-4 col-md-3 date">10.07 - 06.10</div>
-                <div className="col-8 col-md-9"><strong>Resort Group</strong> | <span>Steamboat Springs, CO</span><br/>
-                  Internet Marketing Specialist</div>
-              </div>{/* END .row */}
-
-              <div className="row no-gutters">
-                <div className="col-4 col-md-3 date">11.06 - 10.07</div>
-                <div className="col-8 col-md-9"><strong>Sunday River</strong> | <span>Newry, ME</span><br/>
-                  Internet Marketing Specialist</div>
-              </div>{/* END .row */}
+              <Experience details={{ date: "09.14 - Today", company: "Swift Communications", location: "Remote", position: "WordPress Developer" }} />
+              <Experience details={{ date: "06.10 - 09.14", company: "Independent Contractor", location: "Remote", position: "Web Developer" }} />
+              <Experience details={{ date: "10.07 - 06.10", company: "Resort Group", location: "Steamboat Springs, CO", position: "Internet Marketing Specialist" }} />
+              <Experience details={{ date: "11.06 - 10.07", company: "Sunday River", location: "Newry, ME", position: "Internet Marketing Specialist" }} />
 
               <hr />
 
-              <div className="row no-gutters">
-                <div className="col-4 col-md-3 date">09.02 - 05.06</div>
-                <div className="col-8 col-md-9"><strong>The University of Maine </strong> | <span>Orono, ME</span><br/>
-                  B.A. in New Media, <em>National Dean's List Society</em></div>
-              </div>{/* END .row */}
+              <Experience details={{ date: "09.02 - 05.06", company: "The University of Maine", location: "Orono, ME", position: "B.A. in New Media, National Dean's List Society" }} />
 
               <hr />
 
