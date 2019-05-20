@@ -56,14 +56,42 @@ class About extends Component {
                 <div className="col-12 col-md-9"><h2 className="text-center text-md-left">&#47;&#47; my <span>experience</span></h2></div>
               </div>{/* END .row */}
 
-              <Experience details={{ date: "09.14 - Today", company: "Swift Communications", location: "Remote", position: "WordPress Developer" }} />
-              <Experience details={{ date: "06.10 - 09.14", company: "Independent Contractor", location: "Remote", position: "Web Developer" }} />
-              <Experience details={{ date: "10.07 - 06.10", company: "Resort Group", location: "Steamboat Springs, CO", position: "Internet Marketing Specialist" }} />
-              <Experience details={{ date: "11.06 - 10.07", company: "Sunday River", location: "Newry, ME", position: "Internet Marketing Specialist" }} />
+              <Experience details={{
+                date: "09.14 - Today",
+                company: "Swift Communications",
+                location: "Remote",
+                position: "WordPress Developer"
+              }} />
+              
+              <Experience details={{
+                date: "06.10 - 09.14",
+                company: "Independent Contractor",
+                location: "Remote",
+                position: "Web Developer"
+              }} />
+
+              <Experience details={{ date:
+                "10.07 - 06.10",
+                company: "Resort Group",
+                location: "Steamboat Springs, CO",
+                position: "Internet Marketing Specialist"
+              }} />
+
+              <Experience details={{
+                date: "11.06 - 10.07",
+                company: "Sunday River",
+                location: "Newry, ME",
+                position: "Internet Marketing Specialist"
+              }} />
 
               <hr />
 
-              <Experience details={{ date: "09.02 - 05.06", company: "The University of Maine", location: "Orono, ME", position: "B.A. in New Media, National Dean's List Society" }} />
+              <Experience details={{
+                date: "09.02 - 05.06",
+                company: "The University of Maine",
+                location: "Orono, ME",
+                position: "B.A. in New Media, National Dean's List Society"
+              }} />
 
               <hr />
 
