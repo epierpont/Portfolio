@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Typist from 'react-typist';
 
 class Header extends Component {
 
@@ -10,8 +11,10 @@ class Header extends Component {
           <div className="container">
             <div className="row">
 
-              <div className="col">
-                <div className="text-center">eric_<span>pierpont()&#123;</span></div>
+              <div className="col text-center">
+                <Typist>
+                    erix<Typist.Backspace count={1} delay={1000} />c_<span>pierpont()&#123;</span>
+                </Typist>
               </div>{/* END .col */}
 
             </div>{/* END .row */}
