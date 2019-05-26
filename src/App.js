@@ -23,12 +23,12 @@ class App extends Component {
     return (
       <main>
         <Header onHeaderTyped={this.onHeaderTyped} renderMsg={this.state.renderMsg} />
-        <Divider fillColor='#fff' />
-        <Recent />
-        <Divider fillColor='#f7f7f7' />
-        <About />
-        <Divider fillColor='#000' />
-        <Footer />
+        <Divider fillColor='#fff' renderMsg={this.state.renderMsg} show='true' />
+        <Recent renderMsg={this.state.renderMsg} />
+        <Divider fillColor='#f7f7f7' renderMsg={this.state.renderMsg} />
+        <About renderMsg={this.state.renderMsg} />
+        <Divider fillColor='#000' renderMsg={this.state.renderMsg} />
+        <Footer renderMsg={this.state.renderMsg} />
       </main>
     )
   }

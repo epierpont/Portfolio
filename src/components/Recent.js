@@ -6,14 +6,15 @@ class Recent extends Component {
   render() {
     return (
       <section className="recent-work">
+      {this.props.renderMsg ?
         <div className="container">
           <div className="row">
 
             <div className="col text-center">
               <h2>&#47;&#47; recent <span>projects</span></h2>
-            </div>{/* END .col */}
+            </div>
 
-          </div>{/* END .row */}
+          </div>
 
           <div className="row no-gutters">
 
@@ -44,8 +45,9 @@ class Recent extends Component {
               siteUrl: "https://cavvysavvy.tsln.com",
             }}/>
 
-          </div>{/* END .row */}
-        </div>{/* END .container */}
+          </div>
+        </div>
+      : null }
       </section>
     )
   }

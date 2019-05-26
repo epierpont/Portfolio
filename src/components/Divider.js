@@ -8,10 +8,14 @@ class Divider extends Component {
 
   render() {
     return (
-      <div className="divider">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <polygon fill={this.props.fillColor} points="0,100 100,0 100,100"/>
-        </svg>
+      <div>
+      {this.props.renderMsg || this.props.show ?
+        <div className="divider">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill={this.props.fillColor} points="0,100 100,0 100,100"/>
+          </svg>
+        </div>
+      : null }
       </div>
     )
 

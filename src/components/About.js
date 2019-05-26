@@ -15,6 +15,7 @@ class About extends Component {
   render() {
     return (
       <section className="about-me">
+      {this.props.renderMsg ?
         <div className="container">
           <div className="row no-gutters">
 
@@ -45,16 +46,16 @@ class About extends Component {
                 <a href="#" className="phone">207.838.3500</a>
               </p>
 
-            </div>{/* END .col */}
+            </div>
 
-            <div className="col-1"></div>{/* END .col */}
+            <div className="col-1"></div>
 
             <div className="col-md-5 experience">
 
               <div className="row no-gutters title">
                 <div className="col-0 col-md-3 date"></div>
                 <div className="col-12 col-md-9"><h2 className="text-center text-md-left">&#47;&#47; my <span>experience</span></h2></div>
-              </div>{/* END .row */}
+              </div>
 
               <Experience details={{
                 date: "09.14 - Today",
@@ -62,7 +63,7 @@ class About extends Component {
                 location: "Remote",
                 position: "WordPress Developer"
               }} />
-              
+
               <Experience details={{
                 date: "06.10 - 09.14",
                 company: "Independent Contractor",
@@ -98,12 +99,13 @@ class About extends Component {
               <div className="row no-gutters">
                 <div className="col-4 col-md-3 date"></div>
                 <div className="col-8 col-md-9"><a className="btn btn-primary" href="#" role="button">Resume</a></div>
-              </div>{/* END .row */}
+              </div>
 
-            </div>{/* END .col */}
+            </div>
 
-          </div>{/* END .row */}
-        </div>{/* END .container */}
+          </div>
+        </div>
+        : null }
       </section>
     )
   }
