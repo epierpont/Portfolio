@@ -1,18 +1,7 @@
-import React, { Component } from 'react';
-import Typist from 'react-typist';
+import React, { Component } from 'react'
+import Typist from 'react-typist'
 
 class Header extends Component {
-  constructor() {
-    super()
-    this.state = {
-      renderMsg: false,
-    }
-    this.onHeaderTyped = this.onHeaderTyped.bind(this)
-  }
-
-  onHeaderTyped() {
-    this.setState({ renderMsg: true })
-  }
 
   render() {
     return (
@@ -25,7 +14,7 @@ class Header extends Component {
               <div className="col text-center">
                 <Typist
                   cursor={{ hideWhenDone: true }}
-                  onTypingDone={this.onHeaderTyped}
+                  onTypingDone={this.props.onHeaderTyped}
                 >
                   erix<Typist.Backspace count={1} delay={1000} />c_<span>pierpont()&#123;</span>
                 </Typist>
@@ -40,7 +29,7 @@ class Header extends Component {
             <div className="row">
               <div className="col-md-8">
                 <h1>Chuppta? I'm a <strong>LAMP Developer</strong><br/>AND <strong>WordPress Monkey</strong></h1>
-                {this.state.renderMsg ? ( <p>We got it</p> ) : null }
+                {this.props.renderMsg ? ( <p>We got it</p> ) : null }
               </div>{/* END .col */}
               <div className="col">
                 <figure></figure>
