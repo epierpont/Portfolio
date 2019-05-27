@@ -38,12 +38,12 @@ class About extends Component {
               <hr />
 
               <p className="text-center">
-                <a href="#" className="email">info@ericpierpont.com</a>
-                <a href="#" className="social"><FontAwesomeIcon icon={faFacebookF} /></a>
-                <a href="#" className="social"><FontAwesomeIcon icon={faInstagram} /></a>
-                <a href="#" className="social"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                <a href="#" className="social"><FontAwesomeIcon icon={faStackOverflow} /></a>
-                <a href="#" className="phone">207.838.3500</a>
+                <a href="mailto:info@ericpierpont.com" className="email">info@ericpierpont.com</a>
+                <a href="https://www.facebook.com/eric.pierpont" className="social"><FontAwesomeIcon icon={faFacebookF} /></a>
+                <a href="https://www.instagram.com/epierpont/" className="social"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="https://www.linkedin.com/in/epierpont/" className="social"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                <a href="https://stackoverflow.com/users/2762834/epierpont" className="social"><FontAwesomeIcon icon={faStackOverflow} /></a>
+                <a href="tel:2078383500" className="phone">207.838.3500</a>
               </p>
 
             </div>
