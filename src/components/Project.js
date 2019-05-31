@@ -8,7 +8,7 @@ class Project extends Component {
 
   render() {
     return(
-      <div className={"col-4 " + this.props.details.slug}>
+      <div className={"col-lg-4 " + this.props.details.slug}>
         <div className="card">
           <a href="#" className="card-img-top"><img src={"/src/images/logo-" + this.props.details.slug + ".png" } alt={"Logo - " + this.props.details.name} /></a>
           <div className="card-body">
@@ -44,6 +44,7 @@ class Project extends Component {
             </div>
           </div>
         </div>
+        <hr className="d-block d-lg-none" />
       </div>
     )
   }

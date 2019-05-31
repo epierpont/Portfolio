@@ -13,6 +13,14 @@
 
   }
 
+  hr {
+    margin: 2.2rem 0;
+  }
+
+  .cavvy-savvy hr {
+    display: none !important;
+  }
+
   .card {
   	border: 0;
   	font-size: .875rem;
@@ -39,35 +47,63 @@
     	line-height: 1.5rem;
     }
 
-  }
-
-  .card-img-top {
-    height: 40px;
-  }
-
-  .steamboat {
-    padding-right: 4rem;
-
     .card-img-top img {
-      width: 70%;
+      width: 50%;
+    }
+
+    .park-record .card-img-top img {
+      width: 35%;
     }
 
   }
 
-  .park-record {
-    padding: 0 2rem;
+  @include media-breakpoint-up(md) {
 
     .card-img-top img {
-      width: 55%;
+      width: 35%;
+    }
+
+    .steamboat .card-img-top img {
+      width: 35%;
+    }
+
+    .park-record .card-img-top img {
+      width: 25%;
     }
 
   }
 
-  .cavvy-savvy {
-    padding-left: 4rem;
+  @include media-breakpoint-up(lg) {
 
-    .card-img-top img {
-      width: 80%;
+    .card-img-top {
+      height: 40px;
+    }
+
+    .steamboat {
+      padding-right: 4rem;
+
+      .card-img-top img {
+        width: 70%;
+      }
+
+    }
+
+    .park-record {
+      padding: 0 2rem;
+
+      .card-img-top img {
+        width: 55%;
+      }
+
+    }
+
+    .cavvy-savvy {
+      padding-left: 4rem;
+
+      .card-img-top img {
+        width: 80%;
+      }
+
     }
 
   }
