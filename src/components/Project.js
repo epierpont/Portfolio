@@ -32,7 +32,7 @@ class Project extends Component {
                   <div className="col-md-5"><img src={"/src/images/phone-" + this.props.details.slug + ".png"} alt={"Mobile - " + this.props.details.name} /></div>
                   <div className="col-md-7">
                     <h6>{this.props.details.modalHeading}</h6>
-                    <p>{this.props.details.modalText}</p>
+                    {this.props.details.modalText}
                   </div>
                 </div>
               </div>
