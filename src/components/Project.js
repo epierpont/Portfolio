@@ -10,7 +10,7 @@ class Project extends Component {
     return(
       <div className={"col-lg-4 " + this.props.details.slug}>
         <div className="card">
-          <a href="#" className="card-img-top"><img src={"/src/images/logo-" + this.props.details.slug + ".png" } alt={"Logo - " + this.props.details.name} /></a>
+          <a href="#" className="card-img-top"><img src={this.props.details.logoUrl} alt={"Logo - " + this.props.details.name} /></a>
           <div className="card-body">
             <p className="card-text">{this.props.details.cardText}</p>
           </div>
@@ -29,7 +29,7 @@ class Project extends Component {
               <div className="modal-body">
               <div className="container-fluid">
                 <div className="row">
-                  <div className="col-md-5"><img src={"/src/images/phone-" + this.props.details.slug + ".png"} alt={"Mobile - " + this.props.details.name} /></div>
+                  <div className="col-md-5"><img src={this.props.details.phoneUrl} alt={"Mobile - " + this.props.details.name} /></div>
                   <div className="col-md-7">
                     <h6>{this.props.details.modalHeading}</h6>
                     {this.props.details.modalText}

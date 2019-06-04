@@ -1,6 +1,15 @@
 import React, { Component } from 'react'
 import Project from './Project'
 
+import steamboatLogo from '../images/logo-steamboat.png'
+import steamboatPhone from '../images/phone-steamboat.png'
+
+import parkRecordLogo from '../images/logo-park-record.png'
+import parkRecordPhone from '../images/phone-park-record.png'
+
+import cavvySavvyLogo from '../images/logo-cavvy-savvy.png'
+import cavvySavvyPhone from '../images/phone-cavvy-savvy.png'
+
 class Recent extends Component {
 
   render() {
@@ -32,6 +41,8 @@ class Recent extends Component {
               modalHeading: "So many Gutenberg blocks",
               modalText: <div className="modal-text" dangerouslySetInnerHTML={{__html: steamboatModalText}}></div>,
               siteUrl: "https://steamboatpilot.com",
+              logoUrl: steamboatLogo,
+              phoneUrl: steamboatPhone
             }}/>
 
             <Project details={{
@@ -41,6 +52,8 @@ class Recent extends Component {
               modalHeading: "Good photography captures genuine emotion",
               modalText: <div className="modal-text" dangerouslySetInnerHTML={{__html: parkRecordModalText}}></div>,
               siteUrl: "https://photos.parkrecord.com",
+              logoUrl: parkRecordLogo,
+              phoneUrl: parkRecordPhone
             }}/>
 
             <Project details={{
@@ -50,6 +63,8 @@ class Recent extends Component {
               modalHeading: "No frills WP",
               modalText: <div className="modal-text" dangerouslySetInnerHTML={{__html: cavvySavvyModalText}}></div>,
               siteUrl: "https://cavvysavvy.tsln.com",
+              logoUrl: cavvySavvyLogo,
+              phoneUrl: cavvySavvyPhone
             }}/>
 
           </div>
