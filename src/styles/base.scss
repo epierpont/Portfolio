@@ -3,8 +3,8 @@
 @import 'mixins';
 @import 'global';
 
-@import '../components/Header';
-@import '../components/Recent';
-@import '../components/About';
-@import '../components/Footer';
-@import '../components/Divider';
+@import 'header';
+@import 'recent';
+@import 'about';
+@import 'footer';
+@import 'divider';
