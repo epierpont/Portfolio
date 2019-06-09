@@ -10,6 +10,8 @@ import {
   faStackOverflow
 } from '@fortawesome/free-brands-svg-icons'
 
+import epierpontResume from '../pdfs/epierpont-resume.pdf'
+
 class About extends Component {
 
   render() {
@@ -30,8 +32,8 @@ class About extends Component {
               <hr />
 
               <div className="row skill-set">
-                <SkillSet slug="forte" list={['PHP/MySQL', 'WordPress', 'HTML/CSS', 'Bootstrap', 'Sass', 'Git', 'Agile/Scrum']}/>
-                <SkillSet slug="secondary" list={['OOP', 'JavaScript/jQuery', 'React', 'NPM', 'NodeJS', 'CLI']}/>
+                <SkillSet slug="forte" list={['PHP/MySQL', 'WordPress', 'OOP', 'HTML/CSS', 'Bootstrap', 'Sass', 'Git', 'Agile/Scrum']}/>
+                <SkillSet slug="secondary" list={['JavaScript/jQuery', 'React', 'NPM', 'NodeJS', 'CLI']}/>
                 <SkillSet slug="other" list={['RE Investments', 'Long Term Rentals', 'Property Management']}/>
               </div>
 
@@ -98,7 +100,7 @@ class About extends Component {
 
               <div className="row no-gutters">
                 <div className="col-4 col-md-3 date"></div>
-                <div className="col-8 col-md-9"><a className="btn btn-primary" href="#" role="button">Resume</a></div>
+                <div className="col-8 col-md-9"><a className="btn btn-primary" href={epierpontResume} role="button">Resume</a></div>
               </div>
 
             </div>
