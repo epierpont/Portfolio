@@ -38,7 +38,7 @@ class Project extends Component {
               </div>
               </div>
               <div className="modal-footer">
-                <button type="button" className="btn"><a href="#" target="_blank">View site</a></button>
+                <button type="button" className="btn"><a href={this.props.details.siteUrl} target="_blank">View site</a></button>
                 <button type="button" className="btn" data-dismiss="modal">Close</button>
               </div>
             </div>
