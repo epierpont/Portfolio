@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Typist from 'react-typist'
 
+import ericFace from '../images/face-eric-pierpont.jpg'
+
 class Header extends Component {
 
   render() {
@@ -32,7 +34,7 @@ class Header extends Component {
                   <h1>Chuppta? I'm a <strong>LAMP Developer</strong><br/>AND <strong>WordPress Monkey</strong></h1>
                 </div>
                 <div className="col">
-                  <figure></figure>
+                  <figure style={{backgroundImage : "url(" + ericFace + ")"}} ></figure>
                 </div>
               </div>
             </div>
