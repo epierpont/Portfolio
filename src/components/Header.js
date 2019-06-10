@@ -5,7 +5,14 @@ import ericFace from '../images/face-eric-pierpont.jpg'
 
 class Header extends Component {
 
+  // Preload profile image.
+  componentDidMount() {
+    const profileImg = new Image();
+    profileImg.src = ericFace;
+  }
+
   render() {
+
     return (
       <header>
 
