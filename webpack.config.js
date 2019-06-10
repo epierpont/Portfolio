@@ -7,6 +7,9 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
  });
 
 module.exports = {
+  performance: {
+    hints: false,
+  },
   module: {
     rules: [
     {
