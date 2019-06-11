@@ -84,7 +84,7 @@ class About extends Component {
                 date: "11.06 - 10.07",
                 company: "Sunday River",
                 location: "Newry, ME",
-                position: "Internet Marketing Specialist"
+                position: "Interactive Marketing Manager"
               }} />
 
               <hr />
