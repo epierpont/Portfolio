@@ -7,6 +7,12 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
  });
 
 module.exports = {
+  optimization: {
+    splitChunks: {
+      // include all types of chunks
+      chunks: 'all'
+    }
+  },
   module: {
     rules: [
     {
