@@ -25,7 +25,7 @@ class About extends Component {
 
               <h2 className="text-center text-md-left">&#47;&#47; about <span>me</span></h2>
 
-              <p><strong>Hi there</strong>, my name is Eric Pierpont and I am a web developer based out of Steamboat Springs, CO. I grew up in Maine and attended the University of Maine where I earned my B.A. in New Media. I have been working in the industry since 2006 and have experience working for both private companies and as a contractor. I have a true passion for development which pushes me to learn something new with each and every project. It makes me smile to tell people that "I love what I do", and in the end I know that my work shows that.</p>
+              <p><strong>Hi there</strong>, my name is Eric Pierpont. I am a web developer and I split my time between my home state of Maine and Steamboat Springs, CO. I grew up in Maine and attended the University of Maine where I earned my B.A. in New Media. I have been working in the industry since 2006 and have experience working for both private companies and as a contractor. I have a true passion for development which pushes me to learn something new with each and every project. It makes me smile to tell people that "I love what I do", and in the end I know that my work shows that.</p>
 
               <p>When I am not playing web geek, you will most likely find me skiing, biking, fishing, camping, playing disc golf or any other excuse to be outside.</p>
 
