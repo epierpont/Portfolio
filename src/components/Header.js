@@ -38,7 +38,7 @@ class Header extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-8">
-                  <h1>Chuppta? I'm a <strong>LAMP Developer</strong><br/>AND <strong>WordPress Monkey</strong></h1>
+                  <h1>Chuppta? I'm a <strong>Full Stack</strong><br/>Web Developer</h1>
                 </div>
                 <div className="col">
                   <figure style={{backgroundImage : "url(" + ericFace + ")"}} ></figure>
