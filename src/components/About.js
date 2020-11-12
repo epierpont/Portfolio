@@ -33,7 +33,7 @@ class About extends Component {
 
               <div className="row skill-set">
                 <SkillSet slug="forte" list={['PHP/MySQL', 'WordPress', 'OOP', 'HTML/CSS', 'Bootstrap', 'Sass', 'Git', 'Agile/Scrum']}/>
-                <SkillSet slug="secondary" list={['JavaScript/jQuery', 'React', 'NPM', 'NodeJS', 'CLI']}/>
+                <SkillSet slug="secondary" list={['JavaScript/jQuery', 'React', 'NPM', 'Gatsby', 'GraphQL', 'NodeJS', 'CLI']}/>
                 <SkillSet slug="other" list={['RE Investments', 'Long Term Rentals', 'Property Management']}/>
               </div>
 
