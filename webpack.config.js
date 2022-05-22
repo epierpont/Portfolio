@@ -1,10 +1,10 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
- const htmlWebpackPlugin = new HtmlWebPackPlugin({
-   template: "./src/index.html",
-   filename: "./index.html",
-   favicon: "./src/images/favicon-32x32.png"
- });
+const htmlWebpackPlugin = new HtmlWebPackPlugin({
+  template: "./src/index.html",
+  filename: "./index.html",
+  favicon: "./src/images/favicon-32x32.png"
+});
 
 module.exports = {
   optimization: {
@@ -15,26 +15,19 @@ module.exports = {
   },
   module: {
     rules: [
-    {
-      test: /\.js$/,
-      exclude: /node_modules/,
-      use: {
-        loader: 'babel-loader'
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+      {
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(png|jpe?g|gif|pdf)$/,
+        use: ['file-loader'],
       }
-    },
-    {
-      test: /\.scss$/,
-      loader: 'style-loader!css-loader!sass-loader',
-    },
-    {
-      test: /\.(png|jpe?g|gif|pdf)$/,
-      use: [
-        {
-          loader: 'file-loader',
-          options: {},
-        },
-      ],
-    }
     ]
   },
   plugins: [htmlWebpackPlugin]
