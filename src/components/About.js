@@ -25,7 +25,7 @@ class About extends Component {
 
                 <h2 className="text-center text-md-left">&#47;&#47; about <span>me</span></h2>
 
-                <p><strong>Hi there</strong>, my name is Eric Pierpont. I am a recent real estate investor and have been a 9-5 web developer for too long now. I grew up in Maine and spent my 20s out west in Steamboat Springs living the ski bum lifestyle. I moved back to Maine in my early 30s and started buying investment properties. I love the tangibility of this asset class and know there is more fun to be had.</p>
+                <p><strong>Hi there</strong>, my name is Eric Pierpont. I am a recent real estate investor and have been a web developer for a long time now. I grew up in Maine and spent my 20s out west in Steamboat Springs living the ski bum lifestyle. I moved back to Maine in my early 30s and started buying investment properties. I love the tangibility of this asset class and know there is more fun to be had.</p>
 
                 <p>When I am not geeking out on spreadsheets, you will most likely find me biking, camping, rehabbing a property, traveling or any other excuse to step away from the computer screen.</p>
 
@@ -67,7 +67,7 @@ class About extends Component {
                 }} />
 
                 <Experience details={{
-                  date: "07.21 - Today",
+                  date: "07.21 - 8.22",
                   company: "iBec Creative",
                   location: "Remote",
                   position: "Web Developer"
